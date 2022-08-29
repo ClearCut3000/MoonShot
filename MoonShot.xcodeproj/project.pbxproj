@@ -17,6 +17,7 @@
 		36D10AD728BBCC61008DA4D3 /* Extension+Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D10AD628BBCC61008DA4D3 /* Extension+Bundle-Decodable.swift */; };
 		36D10AD928BBEE82008DA4D3 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D10AD828BBEE82008DA4D3 /* Mission.swift */; };
 		36D10ADB28BD49C4008DA4D3 /* Extension+Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D10ADA28BD49C4008DA4D3 /* Extension+Color-Theme.swift */; };
+		36D10ADE28BD5A14008DA4D3 /* SingleMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D10ADD28BD5A14008DA4D3 /* SingleMissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		36D10AD628BBCC61008DA4D3 /* Extension+Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		36D10AD828BBEE82008DA4D3 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		36D10ADA28BD49C4008DA4D3 /* Extension+Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color-Theme.swift"; sourceTree = "<group>"; };
+		36D10ADD28BD5A14008DA4D3 /* SingleMissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				36D10AD428BBCBEA008DA4D3 /* Astronaut.swift */,
 				36D10ADC28BD4A44008DA4D3 /* Extensions */,
 				36D10AD828BBEE82008DA4D3 /* Mission.swift */,
+				36D10ADD28BD5A14008DA4D3 /* SingleMissionView.swift */,
 			);
 			path = MoonShot;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D10AD528BBCBEA008DA4D3 /* Astronaut.swift in Sources */,
+				36D10ADE28BD5A14008DA4D3 /* SingleMissionView.swift in Sources */,
 				36D10AC528BBCAB5008DA4D3 /* MissionsView.swift in Sources */,
 				36D10AC328BBCAB5008DA4D3 /* MoonShotApp.swift in Sources */,
 				36D10AD928BBEE82008DA4D3 /* Mission.swift in Sources */,
