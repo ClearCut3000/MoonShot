@@ -27,6 +27,7 @@ struct SingleMissionView: View {
             .scaledToFit()
             .frame(width: geo.size.width * 0.6)
             .padding(.top)
+            .accessibilityLabel(mission.badge)
 
           Text(mission.formattedLaunchDate == "N/A" ? "Mission never flew" : mission.formattedLaunchDate)
             .lineLimit(1)
@@ -64,6 +65,7 @@ struct SingleMissionView: View {
                       Text(crewMember.astronaut.name)
                         .foregroundColor(.white)
                         .font(.headline)
+                        .accessibilityLabel(crewMember.astronaut.name.replacingOccurrences(of: ".", with: " "))
                       Text(crewMember.role)
                         .foregroundColor(.secondary)
                     }
